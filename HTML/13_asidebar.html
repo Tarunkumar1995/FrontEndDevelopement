@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aside bar</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        .sidebar{
+            background-color: palevioletred;
+            float: left;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 10px 10px black;
+            height: 100vh;
+            padding-top: 15px;
+            padding: 15px
+        }
+        .sidebar a{
+            display: block;
+            
+            text-decoration: none;
+            color: white;
+            font-size: 25px;
+            padding: 10px 15px;
+        }
+
+        .sidebar a:hover{
+            background-color: black;
+            border-radius: 50px;
+            
+            box-shadow: 0 10px 10px black;
+        }
+        .sidebar img{
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            width: 200px;
+            border: 10px solid;
+            box-shadow: 0 10px 15px black;
+        }
+    </style>
+</head>
+<body>
+    <!--Side bar-->
+    <aside class="sidebar">
+        <img src="image1.jpg" alt="image">
+        <a href="">HTML</a>
+        <a href="">CSS</a>
+        
+        <a href="">Jquery</a>
+        <a href="">JavaScript</a>
+        <a href="">BootStrap</a>
+        <a href="">AJAX</a>
+        <a href="">Angular</a>
+    </aside>
+</body>
+</html>
