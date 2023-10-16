@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Selectors</title>
+    <style>
+        ol{
+            background-color: gray;
+            color: wheat;
+            padding: 15px;
+            margin: 5px;
+        }
+        li{
+            background-color: orchid;
+            margin: 5px;
+        }
+
+        ol li:nth-child(1){
+            background-color: orange;
+        }
+
+        ol li:nth-child(2){
+            background-color: rebeccapurple;
+        }
+        ol li:nth-child(3){
+            background-color: rgb(198, 12, 96);
+        }
+        ol li:nth-child(4){
+            background-color: rgb(43, 203, 102);
+        }
+
+         li:hover{
+            background-color: black;
+            font-size: 25px;
+            color: white;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <ol>
+        <li>Java</li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>Ruby</li>
+    </ol>
+</body>
+</html>
